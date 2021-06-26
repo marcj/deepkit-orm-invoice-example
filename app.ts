@@ -1,13 +1,10 @@
 import 'reflect-metadata';
-import { Database } from '@deepkit/orm';
-import { SQLiteDatabaseAdapter } from '@deepkit/sqlite';
 import { Invoice } from './invoice';
 import { User } from './user';
 import { ConsoleTransport, Logger } from '@deepkit/logger';
+import { database } from './db';
 
 const logger = new Logger([new ConsoleTransport]);
-
-export const database = new Database(new SQLiteDatabaseAdapter(':memory:'), [User, Invoice]);
 
 async function main() {
     await database.migrate(); //create tables

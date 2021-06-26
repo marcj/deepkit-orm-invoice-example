@@ -10,6 +10,7 @@
     "moduleResolution": "node"
   },
   "files": [
-    "db.ts"
+    "app.ts",
+    "app.ts"
   ]
 }
