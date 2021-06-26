@@ -1,0 +1,30 @@
+{
+  "name": "deepkit-invoice-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@deepkit/core": "^1.0.1-alpha.31",
+    "@deepkit/injector": "^1.0.1-alpha.33",
+    "@deepkit/logger": "^1.0.1-alpha.31",
+    "@deepkit/orm": "^1.0.1-alpha.33",
+    "@deepkit/sql": "^1.0.1-alpha.33",
+    "@deepkit/sqlite": "^1.0.1-alpha.33",
+    "@deepkit/stopwatch": "^1.0.1-alpha.31",
+    "@deepkit/type": "^1.0.1-alpha.33",
+    "ansi-styles": "^4.3.0",
+    "fast-glob": "^3.2.5",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.1.0",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.1.6"
+  },
+  "devDependencies": {
+    "@types/node": "^15.12.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
